@@ -165,7 +165,7 @@
         <div class="row justify-content-center">
           <div class="col-md-6">
             
-            <div class="alert alert-success alert-dismissible fade show my-alert d-none " role="alert">
+            <div class="alert alert-success alert-dismissible fade show d-none  my-alert " role="alert">
               <strong>Terima kasih!</strong> Pesan anda sudah kami terima.
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
@@ -186,7 +186,7 @@
 
               <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
 
-              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+              <button class="btn btn-primary d-none btn-loading" type="button" disabled>
                 <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
                 <span role="status">Loading...</span>
               </button>
@@ -235,13 +235,13 @@
             btnLoading.classList.toggle('d-none');
             btnKirim.classList.toggle('d-none');
             // tampilkan alert
-            myAlert.classList.toogle('d-none');
+            myAlert.classList.toggle('d-none');
             // reset formnya
             form.reset();
 
-            console.log('Success!', response)
+            console.log('Success!', response);
           })
-          .catch((error) => console.error('Error!', error.message));
+          .catch(error => console.error('Error!', error.message))
       });
     </script>
   </body>
