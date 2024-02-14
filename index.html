@@ -8,6 +8,9 @@
 
     <!-- bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -69,10 +72,10 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic optio id itaque amet numquam esse asperiores eveniet iste suscipit molestias.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sed iusto quaerat, repudiandae minima, eius eum similique eveniet corrupti laborum libero fuga? Earum, amet eos.</p>
           </div>
         </div>
@@ -99,7 +102,7 @@
 
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
               <img src="img/projects/keyboard.jpg" class="card-img-top" alt="Project 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -108,7 +111,7 @@
           </div>
 
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="img/projects/keyboard2.jpg" class="card-img-top" alt="Project 2" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -117,7 +120,7 @@
           </div>
 
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <img src="img/projects/keyboard3.jpg" class="card-img-top" alt="Project 3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -126,7 +129,7 @@
           </div>
 
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-delay="300">
               <img src="img/projects/keyboard4.jpg" class="card-img-top" alt="Project 3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -135,7 +138,7 @@
           </div>
 
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-delay="400">
               <img src="img/projects/keyboard5.jpg" class="card-img-top" alt="Project 3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -153,6 +156,31 @@
       </svg>
     </section>
     <!-- Akhir Projects -->
+
+
+    <!-- Galeri -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+              <a href="#">
+                  <img src="" alt="">
+              </a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Akhir Galeri -->
+
+
+
+
 
     <!-- Contact -->
     <section id="contact">
@@ -214,6 +242,18 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
+
+    <!-- SCRIPT AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 2000
+      });
+    </script>
+
+
+
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycby3XrDGLJHdN3FreWaMXWQGacAZzf88-bLJlU_8ltwPD1gU69rBOqcgspr8QakLx5Q81w/exec';
       const form = document.forms['submit-to-google-sheet'];
@@ -246,3 +286,24 @@
     </script>
   </body>
 </html>
+
+<!-- much love for 
+1. Photo by <a href="https://unsplash.com/@orvastudio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">orva studio</a> on <a href="https://unsplash.com/photos/black-laptop-computer-beside-controller-on-brown-wooden-surface-XC3fq-ffXRI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+2. Photo by <a href="https://unsplash.com/@onurbinay?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Onur Binay</a> on <a href="https://unsplash.com/photos/black-tablet-computer-with-keyboard-J7Spe1GTCUw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+3. Photo by <a href="https://unsplash.com/@frdx?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Fredrick Tendong</a> on <a href="https://unsplash.com/photos/man-playing-on-gaming-lapto-p--GMUHeFuJUs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+4. Photo by <a href="https://unsplash.com/@visualbywahyu?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Visual Karsa</a> on <a href="https://unsplash.com/photos/black-and-silver-laptop-computer-0swgaIFoWKU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+5. Photo by <a href="https://unsplash.com/@jeffhardi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jeff Hardi</a> on <a href="https://unsplash.com/photos/black-and-red-laptop-keyboard-yRAK7Vcyl_Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+6. Photo by <a href="https://unsplash.com/@leon_bublitz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Leon Bublitz</a> on <a href="https://unsplash.com/photos/black-laptop-computer-turned-on-uDTzfsGJihw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+7.  Photo by <a href="https://unsplash.com/@virussinside?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Artiom Vallat</a> on <a href="https://unsplash.com/photos/black-laptop-computer-on-brown-wooden-table-WXX_1X75dro?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+8.  Photo by <a href="https://unsplash.com/@christianw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christian Wiediger</a> on <a href="https://unsplash.com/photos/closeup-photo-of-computer-keyboard-WkfDrhxDMC8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+9.  Photo by <a href="https://unsplash.com/@casparrubin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Caspar Camille Rubin</a> on <a href="https://unsplash.com/photos/black-computer-keyboard-on-brown-desk-Hv5vQ8AkbAs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+10.  Photo by <a href="https://unsplash.com/@visualbywahyu?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Visual Karsa</a> on <a href="https://unsplash.com/photos/black-laptop-computer-turned-on-displaying-music-player-1t0qQM81FKs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+keyboard
+1. Photo by <a href="https://unsplash.com/@ahmedatef19?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ahmed Atef</a> on <a href="https://unsplash.com/photos/black-computer-keyboard-on-black-table-9SdZxvkGnZM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+2. Photo by <a href="https://unsplash.com/@michelleding?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Michelle Ding</a> on <a href="https://unsplash.com/photos/black-and-red-computer-keyboard-sfKigQv7viY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+3. Photo by <a href="https://unsplash.com/@shutterghost?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kadyn Pierce</a> on <a href="https://unsplash.com/photos/black-and-white-computer-keyboard-7UjAZ1LVu2o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+4. Photo by <a href="https://unsplash.com/@axville?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Axville</a> on <a href="https://unsplash.com/photos/person-using-desktop-computer-WcrqKjgMPfI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+5. Photo by <a href="https://unsplash.com/@michelleding?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Michelle Ding</a> on <a href="https://unsplash.com/photos/black-and-red-computer-keyboard-c7yBhz9XTIs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+-->
