@@ -8,3 +8,15 @@
 section {
   padding-top: 5rem;
 }
+
+.gallery-img {
+  width: 100%;
+}
+
+/* cara bacanya :
+kita ambil id gallery, di dalam id gallery 
+ada class row ,maka kita ambil semua yang ada
+dalam kelas row itu. */
+#gallery .row > * {
+  padding: 0;
+}
