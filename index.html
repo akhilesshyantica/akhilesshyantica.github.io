@@ -147,6 +147,42 @@
           </div>
         </div>
       </div>
+
+      <section id="my-keyboards">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>My Keyboards</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">Razer Red Blackwidow Ultimate Keyboard</h4>
+                <img src="img/png/razerrr.png " alt="" class="keyboard-img">
+                <a href="#" class="btn btn-light keyboard-detail-button">Show Detail</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">Wireless Gaming Keyboards Mechanical</h4>
+                <img src="img/png/mechanical.png " alt="" class="keyboard-img">
+                <a href="#" class="btn btn-light keyboard-detail-button">Show Detail</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">Tron Gaming Keyboard</h4>
+                <img src="img/png/1.png " alt="" class="keyboard-img">
+                <a href="#" class="btn btn-light keyboard-detail-button">Show Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -224,9 +260,6 @@
     <!-- Akhir Galeri -->
 
 
-
-
-
     <!-- Contact -->
     <section id="contact">
       <div class="container">
@@ -268,6 +301,9 @@
         </div>
       </div>
 
+
+
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#0d6efd"
@@ -298,8 +334,6 @@
         img.dataset.aosDelay = i * 100;
         img.dataset.aosDuration = 1000;
       })
-
-
 
       AOS.init({
         once: true,
@@ -350,6 +384,16 @@
           .catch(error => console.error('Error!', error.message))
       });
     </script>
+
+
+  <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll(".keyboard-box"), {
+      max: 30,
+      speed: 800,
+      glare:true
+    });
+  </script>
   </body>
 </html>
 
@@ -373,3 +417,6 @@ keyboard
 5. Photo by <a href="https://unsplash.com/@michelleding?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Michelle Ding</a> on <a href="https://unsplash.com/photos/black-and-red-computer-keyboard-c7yBhz9XTIs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
 -->
+<!-- <a href="https://www.freepnglogos.com/images/keyboard-17260.html">Get it on origin edition razer red blackwidow ultimate keyboard</a> -->
+<!-- <a href="https://www.freepnglogos.com/images/keyboard-17169.html">Get it on keyboard, gaming keyboards wireless gaming keyboards mechanical</a> -->
+<!-- <a href="https://www.freepnglogos.com/images/keyboard-17189.html">Get it on tron gaming keyboard designed razer rez derez</a> -->
